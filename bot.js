@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const Reload = require("self-reload-json");
 const console = require("console");
-const nodeliquidsoap = require("/usr/local/lib/node_modules/liquidsoap/lib/node/liquidsoap.js");
+const nodeliquidsoap = require("liquidsoap");
 
 const prefix = ';';
 const token = "Mjg5NTY3ODk0ODI2Nzc4NjI1.C6ORkg.j-kbV3kvSum1D5wkmwPv8nZQnk0";
