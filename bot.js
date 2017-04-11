@@ -19,8 +19,8 @@ bot.on("message", msg => {
             "Role ID: " + msg.member.highestRole.id +
             "\nUser ID: " + msg.member.id +
             "\nUser Name: " + msg.member.username + "#" + msg.member.discriminator +
-            "\nAdmin: " + checkPermissions(msg.member.username));
-        console.log("userinfo done by: " + msg.member.username +
+            "\nIs Admin: " + checkPermissions(msg.member.username));
+        console.log("userinfo done by: " + msg.member.username + "#" + msg.member.discriminator +
             ", args: " + args);
     } else if (msg.content.startsWith(prefix + "off") && checkPermissions(msg.author.username)) {
         msg.channel.sendMessage("Shutting Down...");
