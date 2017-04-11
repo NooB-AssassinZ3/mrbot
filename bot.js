@@ -4,7 +4,7 @@ const console = require("console");
 const nodeliquidsoap = require("liquidsoap");
 
 const prefix = ';';
-const token = "Mjg5NTY3ODk0ODI2Nzc4NjI1.C6ORkg.j-kbV3kvSum1D5wkmwPv8nZQnk0";
+const token = "<insert>";
 
 var adminList = new Reload("./data/admins.json");
 var bot = new Discord.Client();
