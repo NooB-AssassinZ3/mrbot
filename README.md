@@ -1,3 +1,4 @@
 # mrbot
-## A bot made from boredom
+A bot made from boredom
+---
 currently converting to Go
